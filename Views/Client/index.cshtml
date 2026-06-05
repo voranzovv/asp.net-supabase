@@ -1,0 +1,43 @@
+@model List<Client>
+
+@{
+    ViewData["Title"] = "Clients";
+}
+@* create client *@
+
+<a asp-action="Create" class="btn btn-primary">Create Client</a>
+<br />
+<br />
+
+<table class="table table-striped table-bordered table-hover">
+    <thead class="thead-dark">
+    <tr class="text-center">
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Address</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    @foreach (var client in Model)
+    {
+        <tr>
+            <td>@client.name</td>
+            <td>@client.email</td>
+            <td>@client.phone</td>
+            <td>@client.address</td>
+            <td>
+                <button class="btn btn-primary">Edit</button>
+                
+                <form asp-action="Delete" asp-route-id="@client.id" method="post" style="display:inline;">
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                </form>
+                <button class="btn btn-success">Details</button>
+                
+            </td>
+        </tr>
+
+
+    }
+
+</table>

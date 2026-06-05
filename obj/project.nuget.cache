@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "dgSpecHash": "vwRt/L9uA9s=",
+  "success": true,
+  "projectFilePath": "/Users/codewithvoran/Humber/Backend-development-2/SupabassCrud/SupabassCrud.csproj",
+  "expectedPackageFiles": [
+    "/Users/codewithvoran/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/microsoft.aspnetcore.diagnostics.entityframeworkcore/9.0.0/microsoft.aspnetcore.diagnostics.entityframeworkcore.9.0.0.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/9.0.0/microsoft.aspnetcore.identity.entityframeworkcore.9.0.0.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.0/microsoft.aspnetcore.identity.ui.9.0.0.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/microsoft.bcl.asyncinterfaces/7.0.0/microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/microsoft.build.framework/17.8.3/microsoft.build.framework.17.8.3.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/microsoft.build.locator/1.7.8/microsoft.build.locator.1.7.8.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.4/microsoft.codeanalysis.analyzers.3.3.4.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/microsoft.codeanalysis.common/4.8.0/microsoft.codeanalysis.common.4.8.0.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/microsoft.codeanalysis.csharp/4.8.0/microsoft.codeanalysis.csharp.4.8.0.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/microsoft.codeanalysis.csharp.workspaces/4.8.0/microsoft.codeanalysis.csharp.workspaces.4.8.0.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/microsoft.codeanalysis.workspaces.common/4.8.0/microsoft.codeanalysis.workspaces.common.4.8.0.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/microsoft.codeanalysis.workspaces.msbuild/4.8.0/microsoft.codeanalysis.workspaces.msbuild.4.8.0.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/microsoft.entityframeworkcore/9.0.0/microsoft.entityframeworkcore.9.0.0.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/microsoft.entityframeworkcore.abstractions/9.0.0/microsoft.entityframeworkcore.abstractions.9.0.0.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/microsoft.entityframeworkcore.analyzers/9.0.0/microsoft.entityframeworkcore.analyzers.9.0.0.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/microsoft.entityframeworkcore.design/9.0.0/microsoft.entityframeworkcore.design.9.0.0.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/microsoft.entityframeworkcore.relational/9.0.0/microsoft.entityframeworkcore.relational.9.0.0.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/microsoft.entityframeworkcore.tools/9.0.0/microsoft.entityframeworkcore.tools.9.0.0.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/microsoft.extensions.configuration.json/10.0.8/microsoft.extensions.configuration.json.10.0.8.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/microsoft.extensions.dependencymodel/9.0.0/microsoft.extensions.dependencymodel.9.0.0.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/microsoft.extensions.fileproviders.embedded/9.0.0/microsoft.extensions.fileproviders.embedded.9.0.0.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/mono.texttemplating/3.0.0/mono.texttemplating.3.0.0.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/npgsql/10.0.3/npgsql.10.0.3.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/npgsql.entityframeworkcore.postgresql/9.0.1/npgsql.entityframeworkcore.postgresql.9.0.1.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/system.codedom/6.0.0/system.codedom.6.0.0.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/system.composition/7.0.0/system.composition.7.0.0.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/system.composition.attributedmodel/7.0.0/system.composition.attributedmodel.7.0.0.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/system.composition.convention/7.0.0/system.composition.convention.7.0.0.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/system.composition.hosting/7.0.0/system.composition.hosting.7.0.0.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/system.composition.runtime/7.0.0/system.composition.runtime.7.0.0.nupkg.sha512",
+    "/Users/codewithvoran/.nuget/packages/system.composition.typedparts/7.0.0/system.composition.typedparts.7.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.Extensions.Configuration.Json will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "/Users/codewithvoran/Humber/Backend-development-2/SupabassCrud/SupabassCrud.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/codewithvoran/Humber/Backend-development-2/SupabassCrud/SupabassCrud.csproj",
+      "libraryId": "Microsoft.Extensions.Configuration.Json",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

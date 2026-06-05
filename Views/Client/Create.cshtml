@@ -1,0 +1,29 @@
+@model Client
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Create Client</h1>
+    <form asp-action="Create" method="post">
+        <div class="mb-3">
+            <label asp-for="name" class="form-label">Name</label>
+            <input asp-for="name" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="email" class="form-label">Email</label>
+            <input asp-for="email" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="phone" class="form-label">Phone</label>
+            <input asp-for="phone" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="address" class="form-label">Address</label>
+            <input asp-for="address" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary">Create</button>
+        
+    </form>
+</div>
