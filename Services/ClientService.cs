@@ -27,6 +27,7 @@ public class ClientService
     //view client
     public Client GetClient(int id)
     {
+
         return _context.Clients.Find(id);
     }
     
@@ -34,6 +35,13 @@ public class ClientService
     public void CreateClient(Client client)
     {
         _context.Clients.Add(client);
+        _context.SaveChanges();
+    }
+    
+    //update client
+    public void UpdateClient(Client client)
+    {
+        _context.Update(client);
         _context.SaveChanges();
     }
 }

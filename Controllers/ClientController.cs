@@ -21,6 +21,16 @@ public class ClientController : Controller
         return View(clients);
     }
     
+  [HttpGet]
+  public IActionResult Detail(int id)
+  {
+      var client = _clientService.GetClient(id);
+      Console.WriteLine(client);
+
+
+      return View(client);
+  }
+    
     // GET
     public IActionResult Create()
     {
@@ -42,5 +52,32 @@ public class ClientController : Controller
         _clientService.CreateClient(client);
         return RedirectToAction("index");
     }
+    
+    //show update form
+    [HttpGet]
+    public IActionResult Edit(int id)
+    {
+        var client = _clientService.GetClient(id);
+
+        if (client == null)
+        {
+            return NotFound();
+        }
+
+        return View(client);
+    }
+    
+    //update
+    [HttpPost]
+    public IActionResult Edit(Client client)
+    {
+        _clientService.UpdateClient(client);
+        return RedirectToAction("Index");
+    }
+    
+    
+    
+    
+    
 
 }

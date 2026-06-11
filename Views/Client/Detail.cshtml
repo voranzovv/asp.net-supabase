@@ -1,0 +1,19 @@
+
+@model Client
+
+@{
+    ViewData["Title"] = "Detail";
+}
+<h1>Detail</h1>
+<div class="container mt-5">
+    <h1 class="display-4">Client Details</h1>
+    <div class="card mt-4">
+        <div class="card-body">
+            <h5 class="card-title">@Model.name</h5>
+            <p class="card-text"><strong>Email:</strong> @Model.email</p>
+            <p class="card-text"><strong>Phone:</strong> @Model.phone</p>
+            <p class="card-text"><strong>Address:</strong> @Model.address</p>
+            <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+        </div>
+    </div>
+</div>

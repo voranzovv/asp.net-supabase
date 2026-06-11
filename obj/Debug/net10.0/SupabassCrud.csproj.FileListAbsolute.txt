@@ -252,3 +252,4 @@
 /Users/codewithvoran/Humber/Backend-development-2/SupabassCrud/obj/Debug/net10.0/SupabassCrud.pdb
 /Users/codewithvoran/Humber/Backend-development-2/SupabassCrud/obj/Debug/net10.0/SupabassCrud.genruntimeconfig.cache
 /Users/codewithvoran/Humber/Backend-development-2/SupabassCrud/obj/Debug/net10.0/ref/SupabassCrud.dll
+/Users/codewithvoran/Humber/Backend-development-2/SupabassCrud/obj/Debug/net10.0/SupabassCrud.sourcelink.json

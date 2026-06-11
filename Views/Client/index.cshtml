@@ -27,12 +27,14 @@
             <td>@client.phone</td>
             <td>@client.address</td>
             <td>
-                <button class="btn btn-primary">Edit</button>
-                
+                @* edit button  *@
+                <a class="btn btn-warning " asp-action="Edit" asp-route-id="@client.id">Edit</a>
+                 @* delete button  *@
                 <form asp-action="Delete" asp-route-id="@client.id" method="post" style="display:inline;">
                     <button type="submit" class="btn btn-danger">Delete</button>
                 </form>
-                <button class="btn btn-success">Details</button>
+                <a class="btn btn-success " asp-action="Detail" asp-route-id="@client.id">Detail</a>
+
                 
             </td>
         </tr>

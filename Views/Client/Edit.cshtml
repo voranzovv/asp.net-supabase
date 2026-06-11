@@ -1,0 +1,29 @@
+@model Client
+@{
+    ViewData["Title"] = "Edit";
+}
+<h1>Edit</h1>
+<div class="container mt-5">
+    <h2>Edit Client</h2>
+    <form asp-action="Edit" method="post">
+        <input asp-for="id" type="hidden" />
+        <div class="mb-3">
+            <label asp-for="name" class="form-label">Name</label>
+            <input asp-for="name" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="email" class="form-label">Email</label>
+            <input asp-for="email" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="phone" class="form-label">Phone</label>
+            <input asp-for="phone" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="address" class="form-label">Address</label>
+            <input asp-for="address" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary" >Update</button>
+         <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </form>
+</div>

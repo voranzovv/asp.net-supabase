@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SupabassCrud")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bd124a1a769fc983edc36d2eeed9918fc893b4c")]
 [assembly: System.Reflection.AssemblyProductAttribute("SupabassCrud")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SupabassCrud")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
