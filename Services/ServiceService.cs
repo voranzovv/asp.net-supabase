@@ -5,12 +5,10 @@ namespace SupabassCrud.Services;
 public class ServiceService
 {
     private readonly AppDbContext _context;
-
     public ServiceService(AppDbContext context)
     {
         _context = context;
     }
-
 // return all services
     public List<Service> GetAllServices()
     {
