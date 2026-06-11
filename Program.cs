@@ -21,6 +21,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
         }));
 // register the client service
  builder.Services.AddScoped<ClientService>();
+builder.Services.AddScoped<ServiceService>();
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)

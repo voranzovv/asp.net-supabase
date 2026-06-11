@@ -20,7 +20,7 @@ public class ClientController : Controller
         var clients = _clientService.GetAllClients();
         return View(clients);
     }
-    
+    //show detail
   [HttpGet]
   public IActionResult Detail(int id)
   {

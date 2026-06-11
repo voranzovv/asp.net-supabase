@@ -58,6 +58,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/codewithvoran/Humber/Backend-development-2/SupabassCrud/Views/Service/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2VydmljZS9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/codewithvoran/Humber/Backend-development-2/SupabassCrud/Views/Service/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2VydmljZS9EZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/codewithvoran/Humber/Backend-development-2/SupabassCrud/Views/Service/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2VydmljZS9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/codewithvoran/Humber/Backend-development-2/SupabassCrud/Views/Service/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2VydmljZS9pbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/codewithvoran/Humber/Backend-development-2/SupabassCrud/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

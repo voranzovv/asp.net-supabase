@@ -1,0 +1,25 @@
+@model Service
+@{
+    ViewData["Title"] = "Edit";
+}
+<div class="container mt-5">
+    <h2>Edit Service</h2>
+    <form asp-action="Edit" method="post">
+        <input asp-for="Id" type="hidden" />
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label">Name</label>
+            <input asp-for="Name" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="Description" class="form-label">Description</label>
+            <input asp-for="Description" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="Price" class="form-label">Price</label>
+            <input asp-for="Price" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-primary" >Update</button>
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </form>
+</div>
